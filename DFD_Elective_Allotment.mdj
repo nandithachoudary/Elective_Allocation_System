@@ -1,0 +1,2461 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGcmvX4tHHqg2k=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Elective_Allotment",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGcmvX4tHHr2oo=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Level 0",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGcmvkxy3JSwIc=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvX4tHHr2oo="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmvkxy3JQHSw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmvkxy3JYTAc=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvkxy3JSwIc="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;20;0",
+									"parentStyle": true,
+									"left": 42,
+									"top": 205,
+									"width": 116,
+									"height": 20
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmvkxy3JTJTs=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvkxy3JSwIc="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;20;0",
+									"parentStyle": true,
+									"left": 42,
+									"top": 210,
+									"width": 116,
+									"height": 20,
+									"text": "Student",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmvkxy3JU/+Y=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvkxy3JSwIc="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;20;0",
+									"parentStyle": true,
+									"height": 20
+								}
+							],
+							"lineColor": "#38BCFF",
+							"fontColor": "#38BCFF",
+							"font": "Arial;20;0",
+							"parentStyle": false,
+							"left": 32,
+							"top": 200,
+							"width": 136,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmvkxy3JTJTs="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGcmvl8L3JfLmo=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvX4tHHr2oo="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmvl8L3Jd/Yg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmvl8L3Jg2pI=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvl8L3JfLmo="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 274,
+									"top": 225,
+									"width": 164,
+									"height": 13,
+									"text": " Elective Allotment System",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmvl8L3JhBwg=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvl8L3JfLmo="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 274,
+									"top": 197,
+									"width": 164,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 264,
+							"top": 192,
+							"width": 184,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmvl8L3Jg2pI="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmvl8L3JhBwg="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGcmvpUvnJuSY0=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvX4tHHr2oo="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmvpUvnJscCE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmvpUv3J0aU0=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvpUvnJuSY0="
+									},
+									"lineColor": "#FF38FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;25;0",
+									"parentStyle": true,
+									"left": 538,
+									"top": 197,
+									"width": 156,
+									"height": 25
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmvpUvnJvYA4=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvpUvnJuSY0="
+									},
+									"lineColor": "#FF38FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;25;0",
+									"parentStyle": true,
+									"left": 538,
+									"top": 202,
+									"width": 156,
+									"height": 25,
+									"text": "Administrator",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmvpUvnJwmJA=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvpUvnJuSY0="
+									},
+									"lineColor": "#FF38FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;25;0",
+									"parentStyle": true,
+									"height": 25
+								}
+							],
+							"lineColor": "#FF38FF",
+							"fontColor": "#FF38FF",
+							"font": "Arial;25;0",
+							"parentStyle": false,
+							"left": 528,
+							"top": 192,
+							"width": 176,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmvpUvnJvYA4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmvqw73J6HPI=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvX4tHHr2oo="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmvqw73J4s+E="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmvqw73J77o4=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvqw73J6HPI="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmvqw73J4s+E="
+									},
+									"fontColor": "#38FF38",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 152,
+									"top": 175,
+									"width": 118.51708984375,
+									"height": 13,
+									"alpha": -4.566377010565044,
+									"distance": 34.36568055487916,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmvqw73J6HPI="
+									},
+									"edgePosition": 1,
+									"text": "Student Preferences"
+								}
+							],
+							"lineColor": "#7FFF00",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmvl8L3JfLmo="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmvkxy3JSwIc="
+							},
+							"lineStyle": 2,
+							"points": "168:216;264:216",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmvqw73J77o4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmvuo53KW4RI=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvX4tHHr2oo="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmvuo5nKUTbI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmvuo53KXmOU=",
+									"_parent": {
+										"$ref": "AAAAAAGcmvuo53KW4RI="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmvuo5nKUTbI="
+									},
+									"lineColor": "#FF8056",
+									"fontColor": "#FF8056",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 168,
+									"top": 256,
+									"width": 89.5908203125,
+									"height": 13,
+									"alpha": 1.4501729568573387,
+									"distance": 33.24154027718932,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmvuo53KW4RI="
+									},
+									"edgePosition": 1,
+									"text": "Allotment result"
+								}
+							],
+							"lineColor": "#FF8056",
+							"fontColor": "#FF8056",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmvkxy3JSwIc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmvl8L3JfLmo="
+							},
+							"lineStyle": 2,
+							"points": "264:229;168:229",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmvuo53KXmOU="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmv1ZS3K3ZEE=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvX4tHHr2oo="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmv1ZSnK1QVk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmv1ZS3K4xhw=",
+									"_parent": {
+										"$ref": "AAAAAAGcmv1ZS3K3ZEE="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmv1ZSnK1QVk="
+									},
+									"fontColor": "#FF38FF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 328,
+									"top": 167,
+									"width": 292.65234375,
+									"height": 13,
+									"alpha": -1.3078017744243304,
+									"distance": 53.85164807134504,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmv1ZS3K3ZEE="
+									},
+									"edgePosition": 1,
+									"text": "Student/Subject/Preference Data & Program Rules"
+								}
+							],
+							"lineColor": "#FF38FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmvl8L3JfLmo="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmvpUvnJuSY0="
+							},
+							"lineStyle": 2,
+							"points": "528:226;448:226",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmv1ZS3K4xhw="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmv5jQHLVSic=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvX4tHHr2oo="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmv5jP3LTbPg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmv5jQHLWqwA=",
+									"_parent": {
+										"$ref": "AAAAAAGcmv5jQHLVSic="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmv5jP3LTbPg="
+									},
+									"lineColor": "#FF8056",
+									"fontColor": "#FF8056",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 392,
+									"top": 280,
+									"width": 184.0185546875,
+									"height": 13,
+									"alpha": -1.6575344497110276,
+									"distance": 46.17358552246078,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmv5jQHLVSic="
+									},
+									"edgePosition": 1,
+									"text": "Allocation report/Vacancy report"
+								}
+							],
+							"lineColor": "#FF8056",
+							"fontColor": "#FF8056",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmvpUvnJuSY0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmvl8L3JfLmo="
+							},
+							"lineStyle": 2,
+							"points": "448:240;528:240",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmv5jQHLWqwA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGcmvkxy3JQHSw=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Student",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmvqw73J4s+E=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvkxy3JQHSw="
+							},
+							"name": "Student Preferences",
+							"source": {
+								"$ref": "AAAAAAGcmvkxy3JQHSw="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmvl8L3Jd/Yg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGcmvl8L3Jd/Yg=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": " Elective Allotment System",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmvuo5nKUTbI=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvl8L3Jd/Yg="
+							},
+							"name": "Allotment result",
+							"source": {
+								"$ref": "AAAAAAGcmvl8L3Jd/Yg="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmvkxy3JQHSw="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmv5jP3LTbPg=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvl8L3Jd/Yg="
+							},
+							"name": "Allocation report/Vacancy report",
+							"source": {
+								"$ref": "AAAAAAGcmvl8L3Jd/Yg="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmvpUvnJscCE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGcmvpUvnJscCE=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Administrator",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmv1ZSnK1QVk=",
+							"_parent": {
+								"$ref": "AAAAAAGcmvpUvnJscCE="
+							},
+							"name": "Student/Subject/Preference Data & Program Rules",
+							"source": {
+								"$ref": "AAAAAAGcmvpUvnJscCE="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmvl8L3Jd/Yg="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGcmwCKgHLjHnM=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Level 1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGcmwEf5HLpzzY=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwEf5HLnBXw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwEf5XLv3Og=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwEf5HLpzzY="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;30;0",
+									"parentStyle": true,
+									"left": 39.58203125,
+									"top": 101,
+									"width": 103.41796875,
+									"height": 30
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwEf5XLq2zQ=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwEf5HLpzzY="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;30;0",
+									"parentStyle": true,
+									"left": 39.58203125,
+									"top": 106,
+									"width": 103.41796875,
+									"height": 30,
+									"text": "Student",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwEf5XLrjlk=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwEf5HLpzzY="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;30;0",
+									"parentStyle": true,
+									"height": 30
+								}
+							],
+							"lineColor": "#38BCFF",
+							"fontColor": "#38BCFF",
+							"font": "Arial;30;0",
+							"parentStyle": false,
+							"left": 29.58203125,
+							"top": 96,
+							"width": 123.41796875,
+							"height": 88,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwEf5XLq2zQ="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGcmwFHDnL17to=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwFHDnLz4aQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwFHD3L7//4=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwFHDnL17to="
+									},
+									"lineColor": "#FF00FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 642,
+									"top": 341,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwFHDnL2vOI=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwFHDnL17to="
+									},
+									"lineColor": "#FF00FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 642,
+									"top": 346,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Administrator",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwFHDnL3+T8=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwFHDnL17to="
+									},
+									"lineColor": "#FF00FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"height": 13
+								}
+							],
+							"lineColor": "#FF00FF",
+							"fontColor": "#FF38FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 632,
+							"top": 336,
+							"width": 107.4326171875,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwFHDnL2vOI="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGcmwHPVXMBSwc=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwHPVXL/FDk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwHPVXMCl3o=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwHPVXMBSwc="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 194,
+									"top": 209,
+									"width": 76,
+									"height": 13,
+									"text": "Validate data",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwHPVXMDATg=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwHPVXMBSwc="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 194,
+									"top": 181,
+									"width": 76,
+									"height": 13
+								}
+							],
+							"lineColor": "#38BCFF",
+							"fontColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 184,
+							"top": 176,
+							"width": 96,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwHPVXMCl3o="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmwHPVXMDATg="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGcmwJZtHMNjdo=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwJZtHML+GE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwJZtHMO+uY=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwJZtHMNjdo="
+									},
+									"lineColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 340,
+									"top": 194,
+									"width": 66,
+									"height": 26,
+									"text": "Student data",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwJZtHMPa/M=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwJZtHMNjdo="
+									},
+									"lineColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 325,
+									"top": 194,
+									"height": 13
+								}
+							],
+							"lineColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 320,
+							"top": 184,
+							"width": 96,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwJZtHMO+uY="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmwJZtHMPa/M="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGcmwKsnXMZ7zY=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwKsnXMXgOU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwKsnXMa2zA=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwKsnXMZ7zY="
+									},
+									"lineColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 340,
+									"top": 258,
+									"width": 66,
+									"height": 26,
+									"text": "Subject data",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwKsnXMbHZ0=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwKsnXMZ7zY="
+									},
+									"lineColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 325,
+									"top": 258,
+									"height": 13
+								}
+							],
+							"lineColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 320,
+							"top": 248,
+							"width": 96,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwKsnXMa2zA="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmwKsnXMbHZ0="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGcmwLhfHMl2BI=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwLhfHMjc/s="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwLhfHMmrUk=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwLhfHMl2BI="
+									},
+									"lineColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 340,
+									"top": 322,
+									"width": 66,
+									"height": 26,
+									"text": "Preference data",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwLhfHMntEI=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwLhfHMl2BI="
+									},
+									"lineColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 325,
+									"top": 322,
+									"height": 13
+								}
+							],
+							"lineColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 320,
+							"top": 312,
+							"width": 96,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwLhfHMmrUk="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmwLhfHMntEI="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGcmwMuAHMxxh0=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwMuAHMvLdw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwMuAHMy0hg=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwMuAHMxxh0="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#00A9FF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 490,
+									"top": 201,
+									"width": 60,
+									"height": 26,
+									"text": "Sort by CGPA",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwMuAHMzzbA=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwMuAHMxxh0="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#00A9FF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 490,
+									"top": 173,
+									"width": 60,
+									"height": 13
+								}
+							],
+							"lineColor": "#38BCFF",
+							"fontColor": "#00A9FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 480,
+							"top": 168,
+							"width": 80,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwMuAHMy0hg="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmwMuAHMzzbA="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGcmwONmXM9d6M=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwONmXM74q4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwONmXM+CIc=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwONmXM9d6M="
+									},
+									"lineColor": "#FF00FF",
+									"fontColor": "#FF00FF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 170,
+									"top": 449,
+									"width": 84,
+									"height": 26,
+									"text": "Allocate OC Subjects",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwONmXM/cPQ=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwONmXM9d6M="
+									},
+									"lineColor": "#FF00FF",
+									"fontColor": "#FF00FF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 170,
+									"top": 421,
+									"width": 84,
+									"height": 13
+								}
+							],
+							"lineColor": "#FF00FF",
+							"fontColor": "#FF00FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 160,
+							"top": 416,
+							"width": 104,
+							"height": 88,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwONmXM+CIc="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmwONmXM/cPQ="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGcmwQSCHNJSsI=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwQSCHNH0fQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwQSCHNKplM=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwQSCHNJSsI="
+									},
+									"lineColor": "#FF00FF",
+									"fontColor": "#FF00FF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 378,
+									"top": 481,
+									"width": 68,
+									"height": 26,
+									"text": "Allocate electives",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwQSCHNLZFw=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwQSCHNJSsI="
+									},
+									"lineColor": "#FF00FF",
+									"fontColor": "#FF00FF",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 378,
+									"top": 453,
+									"width": 68,
+									"height": 13
+								}
+							],
+							"lineColor": "#FF00FF",
+							"fontColor": "#FF00FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 368,
+							"top": 448,
+							"width": 88,
+							"height": 96,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwQSCHNKplM="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmwQSCHNLZFw="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAGcmwRj+XNVRAg=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwRj+XNT98o="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwRj+XNWcJA=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwRj+XNVRAg="
+									},
+									"lineColor": "#00FF00",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 484,
+									"top": 394,
+									"width": 82,
+									"height": 26,
+									"text": "Allocation results",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwRj+XNXdeA=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwRj+XNVRAg="
+									},
+									"lineColor": "#00FF00",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 469,
+									"top": 394,
+									"height": 13
+								}
+							],
+							"lineColor": "#00FF00",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 464,
+							"top": 384,
+							"width": 112,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwRj+XNWcJA="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmwRj+XNXdeA="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGcmwSZknNhvv0=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwSZkXNfMgM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwSZknNi88o=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwSZknNhvv0="
+									},
+									"lineColor": "#FF5656",
+									"fontColor": "#FF5656",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 538,
+									"top": 497,
+									"width": 54.20263671875,
+									"height": 26,
+									"text": "Generate reports",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGcmwSZknNjw6U=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwSZknNhvv0="
+									},
+									"lineColor": "#FF5656",
+									"fontColor": "#FF5656",
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 538,
+									"top": 469,
+									"width": 54.20263671875,
+									"height": 13
+								}
+							],
+							"lineColor": "#FF5656",
+							"fontColor": "#FF5656",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 528,
+							"top": 464,
+							"width": 74.20263671875,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwSZknNi88o="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGcmwSZknNjw6U="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmwVhFXNuZAw=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwVhFXNsUnQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmwVhFXNvxAI=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwVhFXNuZAw="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmwVhFXNsUnQ="
+									},
+									"fontColor": "#6DFF6D",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 160,
+									"top": 152,
+									"width": 70.0908203125,
+									"height": 13,
+									"alpha": 0.6545706550021008,
+									"distance": 54.20332093147061,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmwVhFXNuZAw="
+									},
+									"edgePosition": 1,
+									"text": "Preferences"
+								}
+							],
+							"lineColor": "#6DFF6D",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwHPVXMBSwc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwEf5HLpzzY="
+							},
+							"lineStyle": 2,
+							"points": "152:184;152:191;184:191",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwVhFXNvxAI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmwXrNXN5NzE=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwXrNXN33BU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmwXrNXN67lg=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwXrNXN5NzE="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmwXrNXN33BU="
+									},
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 264,
+									"top": 160,
+									"width": 99.49951171875,
+									"height": 13,
+									"alpha": 1.3009469732113583,
+									"distance": 48.76474136094644,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmwXrNXN5NzE="
+									},
+									"edgePosition": 1,
+									"text": "Validated student"
+								}
+							],
+							"lineColor": "#6DCEFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwJZtHMNjdo="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwHPVXMBSwc="
+							},
+							"lineStyle": 2,
+							"points": "280:213;320:213",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwXrNXN67lg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmwYcenOE28M=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwYcenOCb6k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmwYcenOFOAo=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwYcenOE28M="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmwYcenOCb6k="
+									},
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 216,
+									"top": 264,
+									"width": 98.0458984375,
+									"height": 13,
+									"alpha": -2.6665817811206676,
+									"distance": 39.35733730830886,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmwYcenOE28M="
+									},
+									"edgePosition": 1,
+									"text": "Validated subject"
+								}
+							],
+							"lineColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwKsnXMZ7zY="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwHPVXMBSwc="
+							},
+							"lineStyle": 2,
+							"points": "280:252;320:252",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwYcenOFOAo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmwZLvnOP6S0=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwZLvnONpxo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmwZLvnOQ7cs=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwZLvnOP6S0="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmwZLvnONpxo="
+									},
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 176,
+									"top": 311,
+									"width": 119.005859375,
+									"height": 13,
+									"alpha": -3.02583340918808,
+									"distance": 43.289721643826724,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmwZLvnOP6S0="
+									},
+									"edgePosition": 1,
+									"text": "Validated preference"
+								}
+							],
+							"lineColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwLhfHMl2BI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwHPVXMBSwc="
+							},
+							"lineStyle": 2,
+							"points": "278:256;278:312;320:312",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwZLvnOQ7cs="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmwayl3Ocwwk=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwayl3OaTy8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmwayl3OdQs8=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwayl3Ocwwk="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmwayl3OaTy8="
+									},
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 424,
+									"top": 187,
+									"width": 48.4072265625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmwayl3Ocwwk="
+									},
+									"edgePosition": 1,
+									"text": "Records"
+								}
+							],
+							"lineColor": "#6DCEFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwMuAHMxxh0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwJZtHMNjdo="
+							},
+							"lineStyle": 2,
+							"points": "416:208;480:208",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwayl3OdQs8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmwdp23Omo/E=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwdp23OkZdY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmwdp3HOn+pk=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwdp23Omo/E="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmwdp23OkZdY="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 272,
+									"top": 472,
+									"width": 70.8017578125,
+									"height": 13,
+									"alpha": 0.3883187978184992,
+									"distance": 47.53945729601885,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmwdp23Omo/E="
+									},
+									"edgePosition": 1,
+									"text": "OC subjects"
+								}
+							],
+							"lineColor": "#38BCFF",
+							"fontColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwONmXM9d6M="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwKsnXMZ7zY="
+							},
+							"lineStyle": 2,
+							"points": "351:296;351:460;264:460",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwdp3HOn+pk="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmwfbCnOx5eA=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwfbCnOvybA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmwfbCnOyBtU=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwfbCnOx5eA="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmwfbCnOvybA="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 240,
+									"top": 399,
+									"width": 98.2490234375,
+									"height": 13,
+									"alpha": -0.794743780028091,
+									"distance": 75.66372975210778,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmwfbCnOx5eA="
+									},
+									"edgePosition": 1,
+									"text": "Preferences(OC)"
+								}
+							],
+							"lineColor": "#38BCFF",
+							"fontColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwONmXM9d6M="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwLhfHMl2BI="
+							},
+							"lineStyle": 2,
+							"points": "342:358;342:460;264:460",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwfbCnOyBtU="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmwmMuXPCYgo=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwmMuXPAT3E="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmwmMuXPD/xo=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwmMuXPCYgo="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmwmMuXPAT3E="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 360,
+									"top": 423,
+									"width": 74.4326171875,
+									"height": 13,
+									"alpha": 0.4069707991896645,
+									"distance": 63.15853069855251,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmwmMuXPCYgo="
+									},
+									"edgePosition": 1,
+									"text": "Elective data"
+								}
+							],
+							"lineColor": "#38BCFF",
+							"fontColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwQSCHNJSsI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwKsnXMZ7zY="
+							},
+							"lineStyle": 2,
+							"points": "372:296;372:448",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwmMuXPD/xo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmwn053PNW5A=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmwn053PLLD0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmwn053POsxM=",
+									"_parent": {
+										"$ref": "AAAAAAGcmwn053PNW5A="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmwn053PLLD0="
+									},
+									"lineColor": "#38BCFF",
+									"fontColor": "#38BCFF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 384,
+									"top": 384,
+									"width": 70.0908203125,
+									"height": 13,
+									"alpha": 1.9264318956166426,
+									"distance": 37.33630940518894,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmwn053PNW5A="
+									},
+									"edgePosition": 1,
+									"text": "Preferences"
+								}
+							],
+							"lineColor": "#38BCFF",
+							"fontColor": "#38BCFF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwQSCHNJSsI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwLhfHMl2BI="
+							},
+							"lineStyle": 2,
+							"points": "384:358;384:448",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmwn053POsxM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmxEzO3QAflg=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmxEzOnP+nok="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmxEzO3QBtoc=",
+									"_parent": {
+										"$ref": "AAAAAAGcmxEzO3QAflg="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmxEzOnP+nok="
+									},
+									"lineColor": "#FF38FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 264,
+									"top": 504,
+									"width": 85.97265625,
+									"height": 13,
+									"alpha": -1.9974234432093794,
+									"distance": 24.166091947189145,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmxEzO3QAflg="
+									},
+									"edgePosition": 1,
+									"text": "OC pass result"
+								}
+							],
+							"lineColor": "#FF38FF",
+							"fontColor": "#FF38FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwQSCHNJSsI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwONmXM9d6M="
+							},
+							"lineStyle": 2,
+							"points": "264:488;368:488",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmxEzO3QBtoc="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmxOpPHQvahI=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmxOpPHQtGHQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmxOpPHQwFEU=",
+									"_parent": {
+										"$ref": "AAAAAAGcmxOpPHQvahI="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmxOpPHQtGHQ="
+									},
+									"lineColor": "#7FFF00",
+									"fontColor": "#7FFF00",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 352,
+									"top": 568,
+									"width": 84.5380859375,
+									"height": 13,
+									"alpha": 0.21406063843747708,
+									"distance": 47.07440918375928,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmxOpPHQvahI="
+									},
+									"edgePosition": 1,
+									"text": "OC allocations"
+								}
+							],
+							"lineColor": "#7FFF00",
+							"fontColor": "#7FFF00",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwRj+XNVRAg="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwONmXM9d6M="
+							},
+							"lineStyle": 2,
+							"points": "216:504;216:584;480:584;480:430",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmxOpPHQwFEU="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmxSCZ3Q+oH4=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmxSCZ3Q8z8k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmxSCZ3Q/v14=",
+									"_parent": {
+										"$ref": "AAAAAAGcmxSCZ3Q+oH4="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmxSCZ3Q8z8k="
+									},
+									"lineColor": "#7FFF00",
+									"fontColor": "#7FFF00",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 432,
+									"top": 552,
+									"width": 104.05712890625,
+									"height": 13,
+									"alpha": -3.5517196893501612,
+									"distance": 50.15974481593781,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmxSCZ3Q+oH4="
+									},
+									"edgePosition": 1,
+									"text": "Elective allocation"
+								}
+							],
+							"lineColor": "#7FFF00",
+							"fontColor": "#7FFF00",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwRj+XNVRAg="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwQSCHNJSsI="
+							},
+							"lineStyle": 2,
+							"points": "456:512;504:512;504:430",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmxSCZ3Q/v14="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmxUnbXRMMxI=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmxUnbHRKToI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmxUnbXRNLzI=",
+									"_parent": {
+										"$ref": "AAAAAAGcmxUnbXRMMxI="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmxUnbHRKToI="
+									},
+									"lineColor": "#7FFF00",
+									"fontColor": "#7FFF00",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 535,
+									"top": 448,
+									"width": 79.4853515625,
+									"height": 13,
+									"alpha": 1.4130270362281243,
+									"distance": 44.553338819890925,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmxUnbXRMMxI="
+									},
+									"edgePosition": 1,
+									"text": "All allocations"
+								}
+							],
+							"lineColor": "#7FFF00",
+							"fontColor": "#7FFF00",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwSZknNhvv0="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwRj+XNVRAg="
+							},
+							"lineStyle": 2,
+							"points": "531:430;531:464",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmxUnbXRNLzI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmxchbHRdJFI=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmxcha3RbSJk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmxchbHReLJk=",
+									"_parent": {
+										"$ref": "AAAAAAGcmxchbHRdJFI="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmxcha3RbSJk="
+									},
+									"lineColor": "#FF5656",
+									"fontColor": "#FF5656",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 647,
+									"top": 463,
+									"width": 170.54248046875,
+									"height": 13,
+									"alpha": -1.2803942907807153,
+									"distance": 90.80198235721508,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmxchbHRdJFI="
+									},
+									"edgePosition": 1,
+									"text": "Allocation and vacancy report"
+								}
+							],
+							"lineColor": "#FF5656",
+							"fontColor": "#FF5656",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwFHDnL17to="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwSZknNhvv0="
+							},
+							"lineStyle": 2,
+							"points": "602:496;646:496;646:416",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmxchbHReLJk="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmxkQ4XRyHm0=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmxkQ4HRw/lo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmxkQ4XRzsYI=",
+									"_parent": {
+										"$ref": "AAAAAAGcmxkQ4XRyHm0="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmxkQ4HRw/lo="
+									},
+									"lineColor": "#FF5656",
+									"fontColor": "#FF5656",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 304,
+									"top": 640,
+									"width": 91.76806640625,
+									"height": 13,
+									"alpha": 1.4288999721908027,
+									"distance": 14.142135623730951,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmxkQ4XRyHm0="
+									},
+									"edgePosition": 1,
+									"text": "Allocation result"
+								}
+							],
+							"lineColor": "#FF5656",
+							"fontColor": "#FF5656",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwEf5HLpzzY="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwSZknNhvv0="
+							},
+							"lineStyle": 2,
+							"points": "560:536;560:632;143:632;143:184",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmxkQ4XRzsYI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmxtT+3STJZ8=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmxtT+nSRZAA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmxtT+3SUUc4=",
+									"_parent": {
+										"$ref": "AAAAAAGcmxtT+3STJZ8="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmxtT+nSRZAA="
+									},
+									"lineColor": "#FF38FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 280,
+									"top": 79,
+									"width": 298.4287109375,
+									"height": 13,
+									"alpha": -0.5260665590746183,
+									"distance": 35.84689665786984,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmxtT+3STJZ8="
+									},
+									"edgePosition": 1,
+									"text": "Student / Subject / Preference Data, Program Rules"
+								}
+							],
+							"lineColor": "#FF38FF",
+							"fontColor": "#FF38FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwHPVXMBSwc="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwFHDnL17to="
+							},
+							"lineStyle": 2,
+							"points": "680:336;680:104;240:104;240:176",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmxtT+3SUUc4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmx9XWHSyYaM=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmx9XWHSw2S0="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmx9XWHSzzKo=",
+									"_parent": {
+										"$ref": "AAAAAAGcmx9XWHSyYaM="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmx9XWHSw2S0="
+									},
+									"lineColor": "#FF38FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 160,
+									"top": 351,
+									"width": 158.716796875,
+									"height": 13,
+									"alpha": -0.0852628766926875,
+									"distance": 117.42657280190033,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmx9XWHSyYaM="
+									},
+									"edgePosition": 1,
+									"text": "Sorted Student List (CGPA)"
+								}
+							],
+							"lineColor": "#FF38FF",
+							"fontColor": "#FF38FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwONmXM9d6M="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwMuAHMxxh0="
+							},
+							"lineStyle": 2,
+							"points": "496:248;496:368;216:368;216:416",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmx9XWHSzzKo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGcmyBqqXTCs9Y=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwCKgHLjHnM="
+							},
+							"model": {
+								"$ref": "AAAAAAGcmyBqqHTAxFs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGcmyBqqXTD8aY=",
+									"_parent": {
+										"$ref": "AAAAAAGcmyBqqXTCs9Y="
+									},
+									"model": {
+										"$ref": "AAAAAAGcmyBqqHTAxFs="
+									},
+									"lineColor": "#FF38FF",
+									"fontColor": "#FF38FF",
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 456,
+									"top": 271,
+									"width": 91.05712890625,
+									"height": 13,
+									"alpha": 1.0557235406604386,
+									"distance": 60.90155991434045,
+									"hostEdge": {
+										"$ref": "AAAAAAGcmyBqqXTCs9Y="
+									},
+									"edgePosition": 1,
+									"text": "Sorted students"
+								}
+							],
+							"lineColor": "#FF38FF",
+							"fontColor": "#FF38FF",
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGcmwQSCHNJSsI="
+							},
+							"tail": {
+								"$ref": "AAAAAAGcmwMuAHMxxh0="
+							},
+							"lineStyle": 2,
+							"points": "480:248;448:248;448:448",
+							"nameLabel": {
+								"$ref": "AAAAAAGcmyBqqXTD8aY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGcmwEf5HLnBXw=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Student",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmwVhFXNsUnQ=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwEf5HLnBXw="
+							},
+							"name": "Preferences",
+							"source": {
+								"$ref": "AAAAAAGcmwEf5HLnBXw="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwHPVXL/FDk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGcmwFHDnLz4aQ=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Administrator",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmxtT+nSRZAA=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwFHDnLz4aQ="
+							},
+							"name": "Student / Subject / Preference Data, Program Rules",
+							"source": {
+								"$ref": "AAAAAAGcmwFHDnLz4aQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwHPVXL/FDk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGcmwHPVXL/FDk=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Validate data",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmwXrNXN33BU=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwHPVXL/FDk="
+							},
+							"name": "Validated student",
+							"source": {
+								"$ref": "AAAAAAGcmwHPVXL/FDk="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwJZtHML+GE="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmwYcenOCb6k=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwHPVXL/FDk="
+							},
+							"name": "Validated subject",
+							"source": {
+								"$ref": "AAAAAAGcmwHPVXL/FDk="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwKsnXMXgOU="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmwZLvnONpxo=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwHPVXL/FDk="
+							},
+							"name": "Validated preference",
+							"source": {
+								"$ref": "AAAAAAGcmwHPVXL/FDk="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwLhfHMjc/s="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGcmwJZtHML+GE=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Student data",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmwayl3OaTy8=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwJZtHML+GE="
+							},
+							"name": "Records",
+							"source": {
+								"$ref": "AAAAAAGcmwJZtHML+GE="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwMuAHMvLdw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGcmwKsnXMXgOU=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Subject data",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmwdp23OkZdY=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwKsnXMXgOU="
+							},
+							"name": "OC subjects",
+							"source": {
+								"$ref": "AAAAAAGcmwKsnXMXgOU="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwONmXM74q4="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmwmMuXPAT3E=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwKsnXMXgOU="
+							},
+							"name": "Elective data",
+							"source": {
+								"$ref": "AAAAAAGcmwKsnXMXgOU="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwQSCHNH0fQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGcmwLhfHMjc/s=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Preference data",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmwfbCnOvybA=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwLhfHMjc/s="
+							},
+							"name": "Preferences(OC)",
+							"source": {
+								"$ref": "AAAAAAGcmwLhfHMjc/s="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwONmXM74q4="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmwn053PLLD0=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwLhfHMjc/s="
+							},
+							"name": "Preferences",
+							"source": {
+								"$ref": "AAAAAAGcmwLhfHMjc/s="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwQSCHNH0fQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGcmwMuAHMvLdw=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Sort by CGPA",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmx9XWHSw2S0=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwMuAHMvLdw="
+							},
+							"name": "Sorted Student List (CGPA)",
+							"source": {
+								"$ref": "AAAAAAGcmwMuAHMvLdw="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwONmXM74q4="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmyBqqHTAxFs=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwMuAHMvLdw="
+							},
+							"name": "Sorted students",
+							"source": {
+								"$ref": "AAAAAAGcmwMuAHMvLdw="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwQSCHNH0fQ="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGcmwONmXM74q4=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Allocate OC Subjects",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmxEzOnP+nok=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwONmXM74q4="
+							},
+							"name": "OC pass result",
+							"source": {
+								"$ref": "AAAAAAGcmwONmXM74q4="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwQSCHNH0fQ="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmxOpPHQtGHQ=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwONmXM74q4="
+							},
+							"name": "OC allocations",
+							"source": {
+								"$ref": "AAAAAAGcmwONmXM74q4="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwRj+XNT98o="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGcmwQSCHNH0fQ=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Allocate electives",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmxSCZ3Q8z8k=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwQSCHNH0fQ="
+							},
+							"name": "Elective allocation",
+							"source": {
+								"$ref": "AAAAAAGcmwQSCHNH0fQ="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwRj+XNT98o="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAGcmwRj+XNT98o=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Allocation results",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmxUnbHRKToI=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwRj+XNT98o="
+							},
+							"name": "All allocations",
+							"source": {
+								"$ref": "AAAAAAGcmwRj+XNT98o="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwSZkXNfMgM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGcmwSZkXNfMgM=",
+					"_parent": {
+						"$ref": "AAAAAAGcmvX4tHHqg2k="
+					},
+					"name": "Generate reports",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmxcha3RbSJk=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwSZkXNfMgM="
+							},
+							"name": "Allocation and vacancy report",
+							"source": {
+								"$ref": "AAAAAAGcmwSZkXNfMgM="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwFHDnLz4aQ="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGcmxkQ4HRw/lo=",
+							"_parent": {
+								"$ref": "AAAAAAGcmwSZkXNfMgM="
+							},
+							"name": "Allocation result",
+							"source": {
+								"$ref": "AAAAAAGcmwSZkXNfMgM="
+							},
+							"target": {
+								"$ref": "AAAAAAGcmwEf5HLnBXw="
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"documentVersion": 1
+}

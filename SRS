@@ -1,0 +1,184 @@
+SOFTWARE REQUIREMENTS SPECIFICATION (SRS)
+ELECTIVE ALLOCATION SYSTEM
+1. INTRODUCTION
+1.1 PURPOSE
+•	To automate the assignment of subjects based on academic merit (CGPA), student preferences, and basket constraints. It replaces manual processes to ensure transparency and compliance with program rules.
+
+1.2 SCOPE
+•	The Elective Allocation System manages the complete lifecycle of elective assignment, including:
+•	Importing student and subject data
+•	Validating preferences and academic eligibility
+•	Performing deterministic merit-based allocation
+•	Enforcing basket constraints
+•	Generating allocation and vacancy reports
+•	The system eliminates manual allocation errors and ensures transparency, fairness, and compliance with institutional academic policies.
+
+1.3 DEFINITIONS AND ACRONYMS
+Term	Description
+OC	Optional Core subject (mandatory allocation)
+CGPA	Cumulative Grade Point Average
+Basket	Logical grouping of subjects; only one subject per basket is allotted, even if it an optional core only one subject is allotted from that basket
+Multi-Pass Allocation	Iterative allocation process until quota is satisfied
+Deterministic Allocation	Same input produces same output
+
+1.4 REFERENCES
+•	Institutional Academic Allocation Rules
+•	Program-specific elective requirements (e.g., IMTech 6, IMTech 8)
+
+2. OVERALL DESCRIPTION
+2.1 PRODUCT PERSPECTIVE
+•	The system is a standalone web-based academic tool that interacts with a relational database containing:
+•	Student records
+•	Subject repositories
+•	Preference data
+•	It replaces manual spreadsheet-based allocation processes.
+
+2.2 PRODUCT FUNCTIONS
+•	The system performs the following major functions:
+•	Student preference submission
+•	Data validation
+•	Merit-based student sorting
+•	OC allocation (mandatory phase)
+•	Multi-pass elective allocation
+•	Seat capacity deduction
+•	Basket locking mechanism
+•	Allocation report generation
+•	Vacancy report generation
+•	Report export functionality
+
+2.3 USER CHARACTERISTICS
+2.3.1 STUDENT
+•	Basic web literacy
+•	Must rank all available subjects (1 to n)
+•	Can view allocation and vacancy reports
+2.3.2 ADMINISTRATOR
+•	Basic technical knowledge
+•	Responsible for data import
+•	Triggers allocation engine
+•	Generates and exports reports
+
+2.4 USER CONSTRAINTS
+•	Students must rank all subjects offered to their Program ID.
+•	Preferences cannot be modified after the allocation engine is triggered.
+•	After final allocation, no manual modifications are permitted.
+•	Students can select only subjects mapped to their specific program.
+
+2.5 ASSUMPTIONS AND DEPENDENCIES
+•	Accurate CGPA data is available prior to allocation.
+•	All students submit complete rankings.
+•	Seat capacities are predefined by the administration.
+•	System depends on server and database availability.
+
+3. SPECIFIC REQUIREMENTS
+3.1 INTERFACE REQUIREMENTS
+3.1.1 EXTERNAL INTERFACE
+•	Web portal for student preference submission
+•	Admin dashboard for data import and allocation control
+3.1.2 HARDWARE INTERFACE
+•	Standard server infrastructure
+•	No specialized hardware required
+3.1.3 SOFTWARE INTERFACE
+•	MySQL Database 
+•	CSV/Excel parsers for data import
+•	Web application framework
+3.1.4 COMMUNICATION INTERFACE
+•	HTTP/HTTPS protocol
+•	Secure database connectivity
+
+3.2 FUNCTIONAL REQUIREMENTS 
+3.2.1 USE CASE DIAGRAMS
+The system manages interactions between the Student and the Administrator within a secured system boundary.
+•	STUDENT USE CASES
+1.	Preference Submission: Mandatory ranking of all subjects (1 to n). Includes automated checks for full ranking and program eligibility.
+2.	Result Access: Viewing the final allotment with an optional download of the allotment letter.
+•	ADMINISTRATOR USE CASES
+1.	Data Management: Importing student (CGPA), subject (seats/baskets), and preference data.
+2.	System Validation: Mandatory verification of CGPAs, roll numbers, and duplicate rankings.
+3.	Allocation Control: Triggering the two-phase engine (OC Allotment followed by Multi-Pass Elective Allotment).
+4.	Reporting: Generating vacancy summaries and final allocation lists.
+3.2.2 USE CASE SPECIFICATIONS
+The system logic follows a strict multi-phase workflow:
+1.	Phase 1 & 2 (Validation): Ensures data integrity and correct program-subject mapping.
+2.	Phase 3 (Merit Sorting): Sorts students by CGPA (descending) with Roll Number as a tie-breaker.
+3.	Phase 4 (OC Allotment): Mandatory subjects are assigned immediately with no seat limits; the associated basket is then locked.
+4.	Phase 5 (Elective Allotment): A multi-pass process assigns the highest available preference based on seat capacity and basket restrictions until quotas are met.
+3.2.3 ANALYSIS CLASSES
+These classes define the core information stored and processed by the system:
+1.	Student: StudentID, Name, Roll No, Program, CGPA.
+2.	Subject: SubjectID, Name, Basket ID, Capacity, Course Type (OC/Elective).
+3.	Preference: StudentID, SubjectID, Priority Rank (1 to n).
+4.	Allotment: StudentID, SubjectID, Allocation Status.
+3.2.4 DATA FLOW DIAGRAMS (DFDs)
+•	 INFORMATION FLOW (DFD LEVEL 0 & 1)
+LEVEL 0:
+The Student provides preferences, and the Admin provides subject data and rules to the system, which returns results and reports.
+LEVEL 1:
+Data is validated, stored, and then passed through sequential processes:
+"Sort by CGPA" → "Allocate OC Subjects" → "Allocate Electives" → "Generate Reports".
+•	 PROCESS DESCRIPTION
+1. STUDENT:
+Must include credential verification, ranking validation, and program mapping checks.
+2. ADMINISTRATOR:
+Triggers validation (CGPA, duplicates, mapping) before initiating the two-phase allocation.
+•	DATA DICTIONARY
+1.	Student Data: Student ID, Name, Roll Number, Program, CGPA.
+2.	Subject Data: Subject ID, Name, Basket ID, Seat Capacity, Course Type.
+3.	Preference Data: Student ID, Subject ID, Priority (1 to n).
+
+3.3 LOGICAL DATABASE REQUIREMENTS
+•	The system shall maintain separate relational tables for:
+•	Student Records
+•	Subject Repository
+•	Preference Store
+•	Allocation Results
+•	Primary and foreign key constraints shall ensure data integrity.
+
+3.4 PERFORMANCE REQUIREMENTS
+•	The allocation engine shall process the entire batch within acceptable institutional time limits.
+•	System shall support concurrent student access during preference submission window.
+
+3.5 DESIGN CONSTRAINTS
+o	One Subject Per Basket: The system must strictly prevent multiple allocations from the same Basket ID.
+o	OC Priority: OC subjects must be allotted immediately upon selection, bypassing all seat capacity checks.
+•	Merit Order: The allocation engine must strictly process students in descending order of CGPA.
+
+3.6 SOFTWARE SYSTEM ATTRIBUTES
+3.6.1 SECURITY
+•	Role-based authentication (Student/Admin)
+•	Protection of sensitive CGPA data
+•	No unauthorized modifications
+3.6.2 RELIABILITY
+•	Same input data must always produce identical allocation output.
+3.6.3 AVAILABILITY
+•	High availability during preference and reporting phases.
+3.6.4 MAINTAINABILITY
+•	Modular architecture (Validation, Merit, OC, Elective, Reporting modules).
+3.6.5 PORTABILITY
+•	Platform independent; compatible with standard web browsers.
+
+4. SUPPORTING INFORMATION
+4.1 DATA DICTIONARY
+STUDENT
+•	Student ID
+•	Roll Number
+•	Name
+•	Program
+•	CGPA
+SUBJECT
+•	Subject ID
+•	Subject Name
+•	Basket ID
+•	Seat Capacity
+•	Course Type (OC/Elective)
+PREFERENCE
+•	Student ID
+•	Subject ID
+•	Priority (1 to n)
+
+4.2 ERROR HANDLING
+The system shall generate error messages for:
+•	Duplicate priority ranking
+•	Invalid program mapping
+•	Missing CGPA
+•	Incomplete preference list
+
